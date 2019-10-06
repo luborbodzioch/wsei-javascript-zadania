@@ -21,3 +21,25 @@ function distFromAvarage(tab){
 let tab = [1,2,3,4,5,6,7,]
 
 distFromAvarage(tab);
+
+//zadanie 1 
+var favouriteFruits = ['apple', 'orange', 'banana'];
+
+console.log(favouriteFruits[0]);
+console.log(favouriteFruits[favouriteFruits.length - 1]);
+
+for(var i = 0; i < favouriteFruits.length; i++){
+    console.log(favouriteFruits[i]);
+}
+
+//zadanie 3
+
+var tab = [1,2,3,4]
+
+
+function printTable(array){
+    for(var i=0; i < array.length; i++){
+        console.log(array[i]);
+    }
+}
+printTable(tab);
