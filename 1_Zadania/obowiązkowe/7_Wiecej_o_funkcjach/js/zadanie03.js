@@ -1,15 +1,21 @@
 
-czesc();
+czesc(); // Dziala
 
-
-function czesc(){
-    console.log("Czesc");
+function czesc() {
+  console.log("Cześć");
 }
 
-var b = function(){
-    console.log("Witaj");
-};
+czesc(); // Dziala
 
-b();
+// Funkcję można wywołać przed i po zdefiniowaniu
 
-czesc();
+b(); // Nie zadziala
+
+var b = function welcome() {
+  console.log("Witaj");
+}
+
+b(); // Dziala
+
+
+//Zmienna z przypisana funkcja mozna wywolac dopiero po zdefiniowaniu

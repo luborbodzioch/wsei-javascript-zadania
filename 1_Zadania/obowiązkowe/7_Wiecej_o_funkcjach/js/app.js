@@ -5,28 +5,28 @@
  */
 
 
-//Twoj komentarz ...
+//deklaracja pierwszej funkcji
 function jeden() {
 
-    //Twoj komentarz ...
+    //deklaracja zmiennej "zmienna1" jest dostepna w zakresie funcji "jeden()"
     var zmienna1 = 1;
 
-    //Twoj komentarz ...
+    //deklaracja drugiej funkcji wewnatrz funkcji "jeden()"
     function dwa() {
 
-        //Twoj komentarz ...
+        //Wypisanie w konsoli wartosci zmiennej "zmienna1"
         console.log(zmienna1);
 
-        //Twoj komentarz ...
+        //deklaracja zmiennej "zmienna2" wewnatrz funkcji "dwa()"
         var zmienna2 = 3;
     }
 
-    //Twoj komentarz ...
+    //Wywolanie funkcji "dwa()"
     dwa();
 
-    //Twoj komentarz ...
+    //Wypisanie wartosci "zmienna2" - jednak nie zadziala gdyz zmienna ta znajduje sie jedynie wewnatrz funkcji "dwa()"
     console.log(zmienna2)
 }
 
-//Twoj komentarz ...
+//wywolanie funkcji "jeden()"
 jeden()
